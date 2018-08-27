@@ -1,0 +1,18 @@
+header{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.header-section{
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.logo{
+  text-align: left;
+  padding: 0px;
+}
+.logo img{
+  width: 50%;
+}

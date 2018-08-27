@@ -1,0 +1,52 @@
+
+input{
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 92%;
+  border: none;
+  color: #383838;
+}
+textarea{
+  min-height: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 92%;
+    border: none;
+    color: #383838;
+}
+button{
+    font-weight: 700;
+      text-transform: capitalize;
+      font-size: 16px;
+      width: 45%;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #383838;
+  text-shadow: 0 0.4px #383838;
+  font-weight: 500;
+  font-size: 15px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #383838;
+  font-weight: 500;
+  text-shadow: 0 0.4px #383838;
+    font-size: 15px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #383838;
+  font-weight: 500;
+  text-shadow: 0 0.4px #383838;
+    font-size: 15px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #383838;
+  font-weight: 500;
+  text-shadow: 0 0.4px #383838;
+    font-size: 15px;
+}

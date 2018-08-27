@@ -1,0 +1,84 @@
+.contactus-section{
+  text-align: center;
+  padding: 40px 60px 20px 60px;
+  color:#fff;
+}
+
+.contact-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-bottom: 1px solid #fff;
+  margin: 0 auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.contact-details{
+  text-align: left;
+  display: flex;
+flex-direction: column;
+
+}
+
+.contact{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+flex-direction: row;
+}
+
+.contact-icon span{
+  font-size: 25px;
+  margin-right: 10px;
+}
+.follow-icon{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.follow-icon span{
+  color: #fff;
+    font-size: 35px;
+    margin-right: 10px;
+}
+.follow-icon h4{
+  text-transform: uppercase;
+  margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form{
+  text-align: left;
+}
+.contact-form h4{
+  text-transform: uppercase;
+text-align: left;
+font-weight: 800;
+font-size: 15px;
+letter-spacing: 1px;
+
+}
+h3 {
+ overflow: hidden;
+ text-align: center;
+}
+h3:before,
+h3:after {
+
+ content: "";
+ background-image: url('../../assets/images/icon.png');
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 20px;
+ height: 12px;
+ background-size: contain;
+}
+h3:before {
+ right: 1em;
+}
+h3:after {
+ left: 1em;
+ transform:rotate(180deg);
+}

@@ -1,0 +1,90 @@
+.whywe-section{
+  text-align: center;
+  color: #fff;
+  padding: 60px;
+  padding-bottom: 0px;
+}
+.whywe-section p{
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+.whywe-content{
+    display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+}
+.whywe-content img{
+  width: 100%;
+position: relative;
+bottom: -5px;
+z-index: 0;
+}
+.box{
+  text-align:left;
+  margin-top: 10px;
+margin-bottom: 10px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+}
+.box h4{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+}
+.box p{
+  font-size: 11px;
+  font-weight: 500;
+}
+
+h3 {
+ overflow: hidden;
+ text-align: center;
+}
+h3:before,
+h3:after {
+
+ content: "";
+ background-image: url('../../assets/images/icon.png');
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 20px;
+ height: 12px;
+ background-size: contain;
+}
+h3:before {
+ right: 1.5em;
+}
+h3:after {
+ left: 1.5em;
+ transform:rotate(180deg);
+}
+.points{
+  display: flex;
+  flex-direction: column;
+}
+.whywe-icon{
+  color: #ffa93e;
+  font-size: 25px;
+  width: 30%;
+}
+.agileicon:before{
+  content: "";
+  background-image: url('../../assets/images/agile.png');
+  display: inline-block;
+  height: 1px;
+  position: relative;
+    vertical-align: middle;
+    width: 34px;
+    height: 30px;
+    background-size: cover;
+}
+.searchicon span:before{
+  transform: rotateX(180deg);
+}

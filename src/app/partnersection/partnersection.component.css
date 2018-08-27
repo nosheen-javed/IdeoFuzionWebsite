@@ -1,0 +1,29 @@
+.partners-section{
+  text-align: center;
+  padding: 60px;
+  color: #fff;
+}
+h3 {
+ overflow: hidden;
+ text-align: center;
+}
+h3:before,
+h3:after {
+
+ content: "";
+ background-image: url('../../assets/images/icon.png');
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 20px;
+ height: 12px;
+ background-size: contain;
+}
+h3:before {
+ right: 1em;
+}
+h3:after {
+ left: 1em;
+ transform:rotate(180deg);
+}

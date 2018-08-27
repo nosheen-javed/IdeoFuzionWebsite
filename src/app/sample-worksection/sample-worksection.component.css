@@ -1,0 +1,82 @@
+.work-section{
+  text-align: center;
+}
+.work-section p{
+  color: #8a8a8a;
+  font-size: 12px;
+  font-weight: 500;
+}
+.sampleworks-content{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.work{
+  width: 16%;
+flex-grow: 1;
+}
+.work img{
+  width:100%;
+}
+.orange-btn{
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #ffa93e;
+  box-shadow: none;
+  border: 1px solid #ffa93e;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  width: 60%;
+  padding: 8px;
+}
+h3 {
+ overflow: hidden;
+ text-align: center;
+}
+h3:before,
+h3:after {
+  /* background-color: #606060; */
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width:20%;
+ /* line-height: 56px; */
+ border-top: 4px double #ccc;
+}
+h3:before {
+ right: 2em;
+}
+h3:after {
+ left: 2em;
+}
+
+.heading {
+ overflow: hidden;
+ text-align: center;
+}
+.heading:before,
+.heading:after {
+
+ content: "";
+ background-image: url('../../assets/images/icon.png');
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 20px;
+ height: 12px;
+ background-size: contain;
+}
+.heading:before {
+ right: 1.5em;
+}
+.heading:after {
+ left: 1.5em;
+ transform:rotate(180deg);
+}

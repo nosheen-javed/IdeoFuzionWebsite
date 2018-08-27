@@ -1,0 +1,21 @@
+.navigation nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.navigation nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+}
+.navigation nav ul li a {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 13px;
+}
+.navigation nav ul li a:hover{
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+}

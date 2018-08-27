@@ -1,1 +1,120 @@
 /* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background: #fff;
+  font-family: 'Raleway', sans-serif;
+  color: #383838;
+}
+#wrapper{
+  background-color: #fff;
+  width: 100%;
+  margin: 0;
+  padding:0;
+}
+.blue{
+  color : #00b7e1
+}
+.r-align{
+  text-align: right;
+}
+.black{
+  color: #383838;
+}
+.orange{
+  color: #ffa93e;
+}
+.orange-bg{
+  background-color: #ffa93e;
+}
+.grey{
+  background-color: #f9f9f9;
+}
+.black-bg{
+  background-color: #383838;
+  color: #fff;
+}
+.white-btn{
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  background-color: transparent;
+  box-shadow: none;
+}
+section h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+section p{
+  font-size: 12px;
+  font-weight: 500;
+  color: #8a8a8a;
+  margin-top: 10px;
+  text-shadow: 0 0.4px #8a8a8a;
+
+}
+.orange-btn{
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #ffa93e;
+  box-shadow: none;
+  border: 1px solid #ffa93e;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  width: 60%;
+  padding: 8px;
+}
+.separator{
+  height: 60px;
+  background-color: #f9f9f9;
+  width: 100%;
+  display:block;
+}
+
+@media all and (max-width: 699px) {
+
+  .serv-detail[_ngcontent-c4] {
+      width: 100% !important;
+    }
+
+    .fact[_ngcontent-c6] {
+    width: 100% !important;
+    }
+    .hero-content{
+      display: none !important;
+    }
+    .mouseScroll{
+      display: none !important;
+    }
+    .logo[_ngcontent-c11] {
+    text-align: center !important;
+    padding: 0px;
+    width: 100% !important;
+    float: left;
+  }
+  .header-section{
+    width: 100% !important;
+    display: block !important;
+  }
+  .logo img {
+    width: 30% !important;
+}
+.navigation{
+  width: 80% !important;
+  margin: 10% 10% !important;
+  float: left !important;
+  text-align: center !important;
+}
+.navigation nav ul {
+    display: block !important;
+}
+
+
+
+}

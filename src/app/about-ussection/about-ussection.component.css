@@ -1,0 +1,63 @@
+.aboutus-section{
+
+      padding: 60px;
+}
+.aboutus-content {
+  justify-content: center;
+  align-items: center;
+}
+.aboutus-section img{
+  width: 100%;
+}
+.aboutus-content p{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h3 {
+ overflow: hidden;
+ text-align: center;
+}
+h3:before,
+h3:after {
+  /* background-color: #606060; */
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width:20%;
+ /* line-height: 56px; */
+ border-top: 4px double #ccc;
+}
+h3:before {
+ right: 2em;
+}
+h3:after {
+ left: 2em;
+}
+
+.heading {
+ overflow: hidden;
+ text-align: center;
+}
+.heading:before,
+.heading:after {
+
+ content: "";
+ background-image: url('../../assets/images/icon.png');
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 20px;
+ height: 12px;
+ background-size: contain;
+}
+.heading:before {
+ right: 1.5em;
+}
+.heading:after {
+ left: 1.5em;
+ transform:rotate(180deg);
+}

@@ -1,0 +1,122 @@
+.services-section{
+  text-align: center;
+  padding: 60px;
+  position: relative;
+  z-index: 1;
+}
+.services-content{
+  justify-content: space-around;
+  padding-top: 40px;
+  /* width: 80%; */
+  /* margin: 0% auto; */
+  flex-wrap: wrap;
+}
+.serv-detail{
+  width: 33%;
+}
+.ser-Img{
+  padding: 10px;
+}
+.icon{
+  width: 100px;
+  height: 100px;
+  background-color: #383838;
+}
+.serv-detail h5{
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.serv-detail p{
+  font-weight: 500 ;
+  font-size: 12px;
+  color: #606060;
+}
+.icon:before{
+  content: "";
+display: block;
+width: 50px;
+padding: 20px;
+vertical-align: middle;
+height: 50px;
+background-size: auto;
+background-color: #383838;
+text-align: center;
+margin: 0 auto;
+border-radius: 50%;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+.icon1:before {
+    background-image: url('../../assets/images/icon1.png');
+
+}
+.icon2:before {
+    background-image: url('../../assets/images/icon2.png');
+
+}
+.icon3:before {
+    background-image: url('../../assets/images/icon3.png');
+
+}
+.icon4:before {
+    background-image: url('../../assets/images/icon4.png');
+
+}
+.icon5:before {
+    background-image: url('../../assets/images/icon5.png');
+
+}
+.icon6:before {
+    background-image: url('../../assets/images/icon6.png');
+
+}
+h3 {
+ overflow: hidden;
+ text-align: center;
+}
+h3:before,
+h3:after {
+  /* background-color: #606060; */
+ content: "";
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width:20%;
+ /* line-height: 56px; */
+ border-top: 4px double #ccc;
+}
+h3:before {
+ right: 2em;
+}
+h3:after {
+ left: 2em;
+}
+
+.heading {
+ overflow: hidden;
+ text-align: center;
+}
+.heading:before,
+.heading:after {
+
+ content: "";
+ background-image: url('../../assets/images/icon.png');
+ display: inline-block;
+ height: 1px;
+ position: relative;
+ vertical-align: middle;
+ width: 20px;
+ height: 12px;
+ background-size: contain;
+}
+.heading:before {
+ right: 1.5em;
+}
+.heading:after {
+ left: 1.5em;
+ transform:rotate(180deg);
+}

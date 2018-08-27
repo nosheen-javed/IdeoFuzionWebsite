@@ -1,0 +1,78 @@
+.testimonials-section{
+  padding :20px;
+  position: relative;
+}
+.testimonials-section:before{
+  border-top: 15px solid #383838;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  bottom: 0px;
+  content: '';
+  position: absolute;
+  left: 49%;
+  width: 0px;
+  height: 15px;
+  top: -5%;
+  border-radius: 3px;
+  transform: rotate(45deg);
+  background-color: #383838;
+}
+
+.testimonials-content{
+  text-align: center;
+  padding: 40px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.testimonial-name{
+  background-color: #fff;
+  padding: 10px;
+  font-family: 'Raleway-ExtraBold';
+  font-size: 12px;
+  text-transform: uppercase;
+  width: max-content;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 5px;
+}
+.testimonial-name:after{
+  border-top: 15px solid #fff;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+bottom: 0px;
+content: "";
+position: absolute;
+left: 45%;
+/* margin-left: -21px; */
+width: 0;
+height: 0;
+top: 100%;
+}
+.company{
+  font-family: 'Raleway-Medium';
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.testimonials-content blockquote{
+  font-size: 14px;
+  font-family: 'Raleway-Medium';
+      margin-top: 40px;
+        margin-bottom: 20px;
+}
+.testimonials-content blockquote:before{
+
+content: open-quote;
+/* margin-left: -21px; */
+width: 10;
+height: 10;
+}
+.testimonials-content blockquote:after{
+
+content: close-quote;
+/* margin-left: -21px; */
+width: 10;
+height: 10;
+}

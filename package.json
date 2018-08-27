@@ -20,7 +20,13 @@
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
+    "@icon/elegant-icons": "0.0.1-5",
+    "angularfire2": "^5.0.0-rc.12",
     "core-js": "^2.5.4",
+    "elegant-icons": "0.0.1",
+    "firebase": "^5.4.1",
+    "lightslider": "^1.1.6",
+    "nodemailer": "^4.6.8",
     "rxjs": "^6.0.0",
     "zone.js": "~0.8.26"
   },
