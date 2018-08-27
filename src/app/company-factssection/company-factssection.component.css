@@ -7,11 +7,11 @@
   color: #fff;
 }
 .facts-content{
-  justify-content: space-evenly;
+      justify-content: center;
 
 }
 .fact{
-  /*width: 15%;*/
+  width: 15%;
 }
 .number h6{
   font-size: 60px;

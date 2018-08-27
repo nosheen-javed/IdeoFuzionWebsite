@@ -114,7 +114,13 @@ section p{
 .navigation nav ul {
     display: block !important;
 }
-
+.fact{
+  width: 100% !important;
+}
+.team-member {
+    width: 100% !important;
+    margin-top: 15px;
+}
 
 
 }
